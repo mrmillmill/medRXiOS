@@ -22,13 +22,14 @@ img {
   border-radius: 20px;
 }
 
+/*-- INDEX PAGE CSS */
 .top-container {
     padding: 100px;
     background-color: lightBlue;
 }
 
 .middle-container {
-    background-color: blue;
+    background-color: lightBlue;
     height: 1000px;
     width: 300px;
 }
@@ -39,4 +40,37 @@ img {
     text-align: center;
     background-color: lightBlue;
 
+}
+
+/*PRIVACY PAGE CSS*/
+.top-container-privacy {
+    padding: 100px;
+    background-color: lightBlue;
+    text-align: center;
+}
+
+.middle-container-privacy {
+    background-color: lightBlue;
+    height: 100px;
+    width: auto;
+}
+
+.bottom-container-privacy {
+/*    margin-top: 10%;
+*/
+    margin-bottom: 0;
+
+    text-align: center;
+    background-color: lightBlue;
+
+}
+
+table {
+  table-layout: fixed;
+  width: 65%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
